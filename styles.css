@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: blanchedalmond;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    background: transparent;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.slot-machine {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.slot {
+    width: 50px;
+    height: 50px;
+    margin: 0 10px;
+    font-size: 24px;
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    color: #000000;
+    background: #76c535;
+    border-color: rgb(60, 182, 76);
+}
+.container22{
+    position: absolute;
+    top: -30px;
+    left: 1120px;
+    background: transparent;
+    text-align: center;
+    color: white;
+    height: 10px;
+  }
+  
+  .text22{
+    font-family: sans-serif;
+    font-size: 50px;
+    font-weight: 900;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    color: transparent;
+    background-size: 400% 400%;
+    background-clip: text;
+    animation: gradient 5s ease infinite;
+    text-overflow: clip;
+  }
+  
+  @keyframes gradient{
+    0% {
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+  }
+
+  .back-button22{
+    position: fixed;
+    bottom: 12px;
+    left: 15px;
+    padding: 12px 25px;
+    background-color: #f72222;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
